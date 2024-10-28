@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.title-font {
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.para-font {
+    font-family: "Are You Serious", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 0.5rem;
+    background-color: #800080;
+    border-radius: 1rem;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    gap: 0.5rem;
+}
